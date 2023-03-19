@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.about-card-wrap-icons {
+  @apply opacity-0 invisible;
+}
+
+.about-card-wrap:hover .about-card-wrap-icons {
+  @apply opacity-100 visible;
+}
+
+
+.swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+}
