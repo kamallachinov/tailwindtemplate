@@ -36,229 +36,233 @@ function Blog() {
         <div className="h-auto top-0 left-0 right-0 bottom-0 bg-slate-700 bg-opacity-75 absolute"></div>
       </div>
 
-      <div className="container-lg grid sm:grid-cols-1 md:grid-cols-3 md:gap-8 py-8 md:py-16">
-        <div className="cardsContainer col-span-2 grid md:grid-cols-2 gap-4">
-          <div className="cardContainer col-span-1 border-b-2 border-gray-300">
-            <img
-              src="https://bootstrapmade.com/demo/templates/Nova/assets/img/blog/blog-1.jpg"
-              alt=""
-              className="lg:w-full lg:h-64"
-            />
-            <h2 className="my-2 font-poppins font-medium text-xl hover:text-cyan-500 duration-500">
-              Dolorum optio tempore voluptas dignissimos cumque fuga qui
-              quibusdam quia
-            </h2>
-            <div>
-              <ul className="m-0 p-0 flex justify-start items-center gap-4 md:gap-8">
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <MdOutlineMan2 />
-                  John Doe
-                </li>
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <BiTimeFive />
-                  John Doe
-                </li>
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <AiOutlineComment />
-                  John Doe
-                </li>
-              </ul>
+      <div className="container-lg grid grid-cols-1 md:grid-cols-3  md:gap-8 py-8 md:py-16">
+        <div className="cardsContainer col-span-1  md:col-span-2  gap-0 ">
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="cardContainer col-span-1 md:col-span-1 border-b-2 border-gray-300">
+              <img
+                src="https://bootstrapmade.com/demo/templates/Nova/assets/img/blog/blog-1.jpg"
+                alt=""
+                className="lg:w-full lg:h-64"
+              />
+              <h2 className="my-2 font-poppins font-medium text-xl hover:text-cyan-500 duration-500">
+                Dolorum optio tempore voluptas dignissimos cumque fuga qui
+                quibusdam quia
+              </h2>
+              <div>
+                <ul className="m-0 p-0 flex justify-start items-center gap-4 md:gap-8">
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <MdOutlineMan2 />
+                    John Doe
+                  </li>
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <BiTimeFive />
+                    John Doe
+                  </li>
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <AiOutlineComment />
+                    John Doe
+                  </li>
+                </ul>
+              </div>
+              <p className="text-sm mt-2 text-stone-600 opacity-80 font-poppins">
+                Similique neque nam consequuntur ad non maxime aliquam quas.
+                Quibusdam animi praesentium. Aliquam et laboriosam eius aut
+                nostrum quidem aliquid dicta.
+              </p>
+              <div className="flex justify-end items-end mb-2">
+                <button className="text-lg flex justify-center items-center  text-cyan-500">
+                  Read More <AiOutlineArrowRight className="text-base" />
+                </button>
+              </div>
             </div>
-            <p className="text-sm mt-2 text-stone-600 opacity-80 font-poppins">
-              Similique neque nam consequuntur ad non maxime aliquam quas.
-              Quibusdam animi praesentium. Aliquam et laboriosam eius aut
-              nostrum quidem aliquid dicta.
-            </p>
-            <div className="flex justify-end items-end mb-2">
-              <button className="text-lg flex justify-center items-center  text-cyan-500">
-                Read More <AiOutlineArrowRight className="text-base" />
-              </button>
+            <div className="cardContainer col-span-1 border-b-2 border-gray-300">
+              <img
+                src="https://bootstrapmade.com/demo/templates/Nova/assets/img/blog/blog-2.jpg"
+                alt=""
+                className="lg:w-full lg:h-64"
+              />
+              <h2 className="my-2 font-poppins font-medium text-xl hover:text-cyan-500 duration-500">
+                Nisi magni odit consequatur autem nulla dolorem
+              </h2>
+              <div>
+                <ul className="m-0 p-0 flex justify-start items-center gap-4 md:gap-8">
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <MdOutlineMan2 />
+                    John Doe
+                  </li>
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <BiTimeFive />
+                    John Doe
+                  </li>
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <AiOutlineComment />
+                    John Doe
+                  </li>
+                </ul>
+              </div>
+              <p className="text-sm mt-2 text-stone-600 opacity-80 font-poppins">
+                Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint
+                ullam quis illum voluptatum et. Quo libero rerum voluptatem
+                pariatur nam.
+              </p>
+              <div className="flex justify-end items-end mb-2">
+                <button className="text-lg flex justify-center items-center  text-cyan-500">
+                  Read More <AiOutlineArrowRight className="text-base" />
+                </button>
+              </div>
+            </div>
+            <div className="cardContainer col-span-1 border-b-2 border-gray-300">
+              <img
+                src="https://bootstrapmade.com/demo/templates/Nova/assets/img/blog/blog-3.jpg"
+                alt=""
+                className="lg:w-full lg:h-64"
+              />
+              <h2 className="my-2 font-poppins font-medium text-xl hover:text-cyan-500 duration-500">
+                Possimus soluta ut id suscipit ea ut. In quo quia et soluta
+                libero sit sint.
+              </h2>
+              <div>
+                <ul className="m-0 p-0 flex justify-start items-center gap-4 md:gap-8">
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <MdOutlineMan2 />
+                    John Doe
+                  </li>
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <BiTimeFive />
+                    John Doe
+                  </li>
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <AiOutlineComment />
+                    John Doe
+                  </li>
+                </ul>
+              </div>
+              <p className="text-sm mt-2 text-stone-600 opacity-80 font-poppins">
+                Aut iste neque ut illum qui perspiciatis similique recusandae
+                non. Fugit autem dolorem labore omnis et. Eum temporibus fugiat
+                voluptate enim tenetur sunt omnis.
+              </p>
+              <div className="flex justify-end items-end mb-2">
+                <button className="text-lg flex justify-center items-center  text-cyan-500">
+                  Read More <AiOutlineArrowRight className="text-base" />
+                </button>
+              </div>
+            </div>
+            <div className="cardContainer col-span-1 border-b-2 border-gray-300">
+              <img
+                src="https://bootstrapmade.com/demo/templates/Nova/assets/img/blog/blog-4.jpg"
+                alt=""
+                className="lg:w-full lg:h-64"
+              />
+              <h2 className="my-2 font-poppins font-medium text-xl hover:text-cyan-500 duration-500">
+                Non rem rerum nam cum quo minus. Dolor distinctio deleniti
+                explicabo eius exercitationem.
+              </h2>
+              <div>
+                <ul className="m-0 p-0 flex justify-start items-center gap-4 md:gap-8">
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <MdOutlineMan2 />
+                    John Doe
+                  </li>
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <BiTimeFive />
+                    John Doe
+                  </li>
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <AiOutlineComment />
+                    John Doe
+                  </li>
+                </ul>
+              </div>
+              <p className="text-sm mt-2 text-stone-600 opacity-80 font-poppins">
+                Aspernatur rerum perferendis et sint. Voluptates cupiditate
+                voluptas atque quae. Rem veritatis rerum enim et autem. Saepe
+                atque cum eligendi eaque iste omnis a qui.
+              </p>
+              <div className="flex justify-end items-end mb-2">
+                <button className="text-lg flex justify-center items-center  text-cyan-500">
+                  Read More <AiOutlineArrowRight className="text-base" />
+                </button>
+              </div>
+            </div>
+            <div className="cardContainer col-span-1 border-b-2 border-gray-300">
+              <img
+                src="https://bootstrapmade.com/demo/templates/Nova/assets/img/blog/blog-5.jpg"
+                alt=""
+                className="lg:w-full lg:h-64"
+              />
+              <h2 className="my-2 font-poppins font-medium text-xl hover:text-cyan-500 duration-500">
+                Accusamus quaerat aliquam qui debitis facilis consequatur
+              </h2>
+              <div>
+                <ul className="m-0 p-0 flex justify-start items-center gap-4 md:gap-8">
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <MdOutlineMan2 />
+                    John Doe
+                  </li>
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <BiTimeFive />
+                    John Doe
+                  </li>
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <AiOutlineComment />
+                    John Doe
+                  </li>
+                </ul>
+              </div>
+              <p className="text-sm mt-2 text-stone-600 opacity-80 font-poppins">
+                In itaque assumenda aliquam voluptatem qui temporibus iusto nisi
+                quia. Autem vitae quas aperiam nesciunt mollitia tempora odio
+                omnis. Ipsa odit sit ut amet necessitatibus. Quo ullam ut
+                corrupti autem consequuntur totam dolorem.
+              </p>
+              <div className="flex justify-end items-end mb-2">
+                <button className="text-lg flex justify-center items-center  text-cyan-500">
+                  Read More <AiOutlineArrowRight className="text-base" />
+                </button>
+              </div>
+            </div>
+            <div className="cardContainer col-span-1 border-b-2 border-gray-300">
+              <img
+                src="https://bootstrapmade.com/demo/templates/Nova/assets/img/blog/blog-6.jpg"
+                alt=""
+                className="lg:w-full lg:h-64"
+              />
+              <h2 className="my-2 font-poppins font-medium text-xl hover:text-cyan-500 duration-500">
+                Distinctio provident quibusdam numquam aperiam aut
+              </h2>
+              <div>
+                <ul className="m-0 p-0 flex justify-start items-center gap-4 md:gap-8">
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <MdOutlineMan2 />
+                    John Doe
+                  </li>
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <BiTimeFive />
+                    John Doe
+                  </li>
+                  <li className="flex justify-center items-center gap-1 text-cyan-500">
+                    <AiOutlineComment />
+                    John Doe
+                  </li>
+                </ul>
+              </div>
+              <p className="text-sm mt-2 text-stone-600 opacity-80 font-poppins">
+                Expedita et temporibus eligendi enim molestiae est architecto
+                praesentium dolores. Illo laboriosam officiis quis. Labore
+                officia quia sit voluptatem nisi est dignissimos totam. Et
+                voluptate et consectetur voluptatem id dolor magni impedit.
+                Omnis dolores sit.
+              </p>
+              <div className="flex justify-end items-end mb-2">
+                <button className="text-lg flex justify-center items-center  text-cyan-500">
+                  Read More <AiOutlineArrowRight className="text-base" />
+                </button>
+              </div>
             </div>
           </div>
-          <div className="cardContainer col-span-1 border-b-2 border-gray-300">
-            <img
-              src="https://bootstrapmade.com/demo/templates/Nova/assets/img/blog/blog-2.jpg"
-              alt=""
-              className="lg:w-full lg:h-64"
-            />
-            <h2 className="my-2 font-poppins font-medium text-xl hover:text-cyan-500 duration-500">
-              Nisi magni odit consequatur autem nulla dolorem
-            </h2>
-            <div>
-              <ul className="m-0 p-0 flex justify-start items-center gap-4 md:gap-8">
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <MdOutlineMan2 />
-                  John Doe
-                </li>
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <BiTimeFive />
-                  John Doe
-                </li>
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <AiOutlineComment />
-                  John Doe
-                </li>
-              </ul>
-            </div>
-            <p className="text-sm mt-2 text-stone-600 opacity-80 font-poppins">
-              Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint
-              ullam quis illum voluptatum et. Quo libero rerum voluptatem
-              pariatur nam.
-            </p>
-            <div className="flex justify-end items-end mb-2">
-              <button className="text-lg flex justify-center items-center  text-cyan-500">
-                Read More <AiOutlineArrowRight className="text-base" />
-              </button>
-            </div>
-          </div>
-          <div className="cardContainer col-span-1 border-b-2 border-gray-300">
-            <img
-              src="https://bootstrapmade.com/demo/templates/Nova/assets/img/blog/blog-3.jpg"
-              alt=""
-              className="lg:w-full lg:h-64"
-            />
-            <h2 className="my-2 font-poppins font-medium text-xl hover:text-cyan-500 duration-500">
-              Possimus soluta ut id suscipit ea ut. In quo quia et soluta libero
-              sit sint.
-            </h2>
-            <div>
-              <ul className="m-0 p-0 flex justify-start items-center gap-4 md:gap-8">
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <MdOutlineMan2 />
-                  John Doe
-                </li>
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <BiTimeFive />
-                  John Doe
-                </li>
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <AiOutlineComment />
-                  John Doe
-                </li>
-              </ul>
-            </div>
-            <p className="text-sm mt-2 text-stone-600 opacity-80 font-poppins">
-              Aut iste neque ut illum qui perspiciatis similique recusandae non.
-              Fugit autem dolorem labore omnis et. Eum temporibus fugiat
-              voluptate enim tenetur sunt omnis.
-            </p>
-            <div className="flex justify-end items-end mb-2">
-              <button className="text-lg flex justify-center items-center  text-cyan-500">
-                Read More <AiOutlineArrowRight className="text-base" />
-              </button>
-            </div>
-          </div>
-          <div className="cardContainer col-span-1 border-b-2 border-gray-300">
-            <img
-              src="https://bootstrapmade.com/demo/templates/Nova/assets/img/blog/blog-4.jpg"
-              alt=""
-              className="lg:w-full lg:h-64"
-            />
-            <h2 className="my-2 font-poppins font-medium text-xl hover:text-cyan-500 duration-500">
-              Non rem rerum nam cum quo minus. Dolor distinctio deleniti
-              explicabo eius exercitationem.
-            </h2>
-            <div>
-              <ul className="m-0 p-0 flex justify-start items-center gap-4 md:gap-8">
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <MdOutlineMan2 />
-                  John Doe
-                </li>
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <BiTimeFive />
-                  John Doe
-                </li>
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <AiOutlineComment />
-                  John Doe
-                </li>
-              </ul>
-            </div>
-            <p className="text-sm mt-2 text-stone-600 opacity-80 font-poppins">
-              Aspernatur rerum perferendis et sint. Voluptates cupiditate
-              voluptas atque quae. Rem veritatis rerum enim et autem. Saepe
-              atque cum eligendi eaque iste omnis a qui.
-            </p>
-            <div className="flex justify-end items-end mb-2">
-              <button className="text-lg flex justify-center items-center  text-cyan-500">
-                Read More <AiOutlineArrowRight className="text-base" />
-              </button>
-            </div>
-          </div>
-          <div className="cardContainer col-span-1 border-b-2 border-gray-300">
-            <img
-              src="https://bootstrapmade.com/demo/templates/Nova/assets/img/blog/blog-5.jpg"
-              alt=""
-              className="lg:w-full lg:h-64"
-            />
-            <h2 className="my-2 font-poppins font-medium text-xl hover:text-cyan-500 duration-500">
-              Accusamus quaerat aliquam qui debitis facilis consequatur
-            </h2>
-            <div>
-              <ul className="m-0 p-0 flex justify-start items-center gap-4 md:gap-8">
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <MdOutlineMan2 />
-                  John Doe
-                </li>
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <BiTimeFive />
-                  John Doe
-                </li>
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <AiOutlineComment />
-                  John Doe
-                </li>
-              </ul>
-            </div>
-            <p className="text-sm mt-2 text-stone-600 opacity-80 font-poppins">
-              In itaque assumenda aliquam voluptatem qui temporibus iusto nisi
-              quia. Autem vitae quas aperiam nesciunt mollitia tempora odio
-              omnis. Ipsa odit sit ut amet necessitatibus. Quo ullam ut corrupti
-              autem consequuntur totam dolorem.
-            </p>
-            <div className="flex justify-end items-end mb-2">
-              <button className="text-lg flex justify-center items-center  text-cyan-500">
-                Read More <AiOutlineArrowRight className="text-base" />
-              </button>
-            </div>
-          </div>
-          <div className="cardContainer col-span-1 border-b-2 border-gray-300">
-            <img
-              src="https://bootstrapmade.com/demo/templates/Nova/assets/img/blog/blog-6.jpg"
-              alt=""
-              className="lg:w-full lg:h-64"
-            />
-            <h2 className="my-2 font-poppins font-medium text-xl hover:text-cyan-500 duration-500">
-              Distinctio provident quibusdam numquam aperiam aut
-            </h2>
-            <div>
-              <ul className="m-0 p-0 flex justify-start items-center gap-4 md:gap-8">
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <MdOutlineMan2 />
-                  John Doe
-                </li>
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <BiTimeFive />
-                  John Doe
-                </li>
-                <li className="flex justify-center items-center gap-1 text-cyan-500">
-                  <AiOutlineComment />
-                  John Doe
-                </li>
-              </ul>
-            </div>
-            <p className="text-sm mt-2 text-stone-600 opacity-80 font-poppins">
-              Expedita et temporibus eligendi enim molestiae est architecto
-              praesentium dolores. Illo laboriosam officiis quis. Labore officia
-              quia sit voluptatem nisi est dignissimos totam. Et voluptate et
-              consectetur voluptatem id dolor magni impedit. Omnis dolores sit.
-            </p>
-            <div className="flex justify-end items-end mb-2">
-              <button className="text-lg flex justify-center items-center  text-cyan-500">
-                Read More <AiOutlineArrowRight className="text-base" />
-              </button>
-            </div>
-          </div>
+
           <div className="pagination mt-4  col-span-2 flex items-center justify-center gap-3">
             <span className="font-poppins flex items-center justify-center  text-white text-xl bg-cyan-500 opacity-50 rounded-full w-10 h-10">
               1
@@ -271,7 +275,7 @@ function Blog() {
             </span>
           </div>
         </div>
-        <div className="sideBarContainer col-span-1">
+        <div className="sideBarContainer  md:col-span-1">
           <h3 className="font-poppins text-2xl font-normal opacity-80 ">
             Search
           </h3>

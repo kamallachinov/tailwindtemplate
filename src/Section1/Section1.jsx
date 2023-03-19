@@ -243,15 +243,15 @@ function Section1() {
       >
         <div className="position-absolute  bg-slate-800 bg-opacity-75 top-0 left-0 right-0 bottom-0  "></div>
         <div className="absolute flex items-center justify-center flex-col text-center top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <h3 className="text-white font-poppins font-bold text-3xl mb-3">
+          <h3 className="text-white font-poppins font-bold  text-xl md:text-3xl mb-3">
             Ut fugiat aliquam aut non
           </h3>
-          <p className="text-white font-poppins mb-4 text-lg">
+          <p className="text-white font-poppins mb-4 text-sm md:text-lg">
             Duis aute irure dolor in reprehenderit in voluptate velit esse
             cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
             cupidatat non proident.
           </p>
-          <button className="text-white font-poppins text-lg bg-cyan-500 py-2.5 px-5 rounded-full">
+          <button className="text-white font-poppins text-lg bg-cyan-500 py-1 px-3 md:py-2.5 md:px-5 rounded-full">
             Call To Action
           </button>
         </div>
